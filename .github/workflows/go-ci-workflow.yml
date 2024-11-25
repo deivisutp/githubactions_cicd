@@ -8,9 +8,9 @@ env:
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "go-branch" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "go-branch" ]
   workflow_dispatch:
 
 jobs:
